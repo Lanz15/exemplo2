@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<style>
+body{
+    margin: 0;
+}
+
+    header {
+        height: 200px;
+        background-color: blue;
+        text-align: center;
+        margin: 0;
+    }
+
+    menu {
+        height: 300px;
+        width: 30%;
+        background-color: cadetblue;
+        float: left;
+        margin: 0;
+        text-align: center;
+    }
+
+    section {
+        height: 300px;
+        width: 55%;
+        background-color: cadetblue;
+        float: right;
+        text-align: center;
+
+        margin: 0;
+
+    }
+
+    footer {
+        height: 100px;
+        background-color: darkslateblue;
+        clear: both;
+        text-align: center;  
+           margin: 0;
+    }
+
+    @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+        section {
+            height: 300px;
+            width: 100%;
+            background-color: cadetblue;
+            text-align: center;
+            
+            padding: 0 !important;
+            margin: 0;
+        }
+
+        menu {
+            height: 300px;
+            width: 100%;
+            background-color: cadetblue;
+            text-align: center;
+            
+            padding: 0 !important;
+            margin: 0;
+        }
+}
+
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        section {
+            height: 300px;
+            width: 100%;
+            background-color: cadetblue;
+            text-align: center;
+            margin: 0;
+            padding: 0 !important;
+            float: none;
+        }
+
+        menu {
+            height: 300px;
+            width: 100%;
+            background-color: cadetblue;
+            text-align: center;
+            
+            padding: 0 !important;
+            float: none;
+            margin: 0;
+        }
+    }
+</style>
+
+<body>
+    <header>CABEÇALHO</header>
+    <menu>MENU</menu>
+    <section>DESCRIÇÃO</section>
+    <footer>FOOTER</footer>
+</body>
+
+</html>
